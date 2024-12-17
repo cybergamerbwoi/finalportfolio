@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+ background: rgb(2,37,43);
+  background: linear-gradient(90deg, rgba(2,37,43,1) 1%, rgba(0,104,255,1) 100%);
+  margin:0;
+}
+
+header{
+  text-align:center;
+  color:white;
+  font-family:sans-serif;
+}
+/* Website Links except the nav */
+
+a:link{
+  color: white;
+}
+a:visited{
+  color: #b300b3;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+
+
+
+nav{
+  background: linear-gradient(90deg, rgba(148,148,148,1) 0%, rgba(61,50,50,1) 95%);
+  border-top:3px solid black;
+  border-bottom:3px solid black;
+  padding:5px;
+  font-family:sans-serif;
+  text-shadow:2.5px 2.5px 2.5px blue;
+  font-size:1.5em;
+
+}
+
+nav ul{
+  list-style-type:none;
+  text-align:center;
+  margin:8px 0;
+  padding:0;
+}
+
+nav li{
+  display:inline;
+  padding: 5px;
+}
+
+nav a{
+  text-decoration:none;
+}
+
+nav a:link{
+  color:rgb(218,67,255);
+  
+}
+nav a:visited{
+  color:cyan;
+  
+}
+nav a:hover{
+  color:red;
+  
+}
+
+nav a:active{
+  color:yellow;
+  
+}
+
+
+.resume-title{
+  text-align:center;
+  color:#4d79ff;
+}
+
+.logo{
+   margin: 0 auto;
+   display:block;
+
+}
+
+
+
+.home-hero{
+  background-image:url(images/mountain.webp);
+  background-size:cover;
+  font-family:'Mulish', sans-serif;
+}
+
+.home-hero h1{
+  font-size:60px;
+  text-shadow:2px 2px 2px black;
+  text-align:center;
+  padding:50px 0;
+  margin:0;
+}
+
+.home-photo{
+  max-width:95%;
+  height:auto;
+  margin:50px 0 10px 20px;
+
+
+}
+
+.col-sm-4 a{
+  color:hotpink;
+  text-shadow:1px 1px 1px red;
+}
+
+.col-sm-4 .fa{
+  color:hotpink;
+  text-shadow:1px 1px 1px red;
+  font-size:1.5em;
+}
+
+.col-sm-12 a{
+  color:yellow;
+  text-shadow:1px 1px 1px orange;
+}
+
+.col-sm-12 .fa{
+  color:yellow;
+  text-shadow:2px 2px 2px orange;
+  font-size:1.5em;
+}
+
+.contact-color{
+  color:#01ff00;
+}
+
+.home-photo{
+  margin:0 auto;
+  border:2.5px black solid;
+  background-image:url(images/bliss.png);
+  background-size:cover;
+}
+
+
+footer .copyright{
+background-color:black;
+}
+
+.second{
+  background-color:black;
+}
+
+header{
+  text-shadow:3px 3px 3px black;
+}
+
+main{
+  max-width:1000px;
+  margin:20px auto;
+  padding:10px;
+  color:white;
+  text-shadow:1.5px 1.5px 1.5px black;
+  font-family:'Montserrat', sans-serif;
+}
+
+iframe{
+  background-color:white;
+  width:100%;
+}
+
+
+main h1{
+ color:rgb(210,255,249);
+ text-shadow:1.5px 1.5px 1.5px black;
+ font-family:'Mulish', sans-serif;
+ font-weight:bold;
+}
+
+main h2{
+  font-weight:bold;
+}
+
+main h3{
+  font-weight:bold;
+  text-decoration:underline;
+}
+body onload{
+   background-image: url(images/forest.jpg;
+}
+
+
+
+
+
+
+.port-custom{
+  text-decoration: underline 5px rgb(210,255,249) solid;
+
+}
+
+.myButton{
+ font-family:fantasy;
+ color:blue;
+}
+
+/* Footer*/
+footer{
+  border-top: black 3px solid;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(148,148,148,1) 0%, rgba(61,50,50,1) 95%);
+  clear:both;
+  color:white;
+  padding:25px;
+}
+
+.second-foot footer{
+  background:black;
+}
+
+.resume-line{
+  border:2px cyan solid;
+  background:black;
+}
+
+footer small{
+  font-weight:bold;
+}
+
+
+/* JavaScript Game changes for mobile */
+.mobile{
+  display:none;
+}
+
+@media only screen and (max-width: 768px){
+
+.desktop{
+  display:none;
+}
+
+
+.mobile{
+    display: block;
+    touch-action: manipulation;
+  }
+}
+
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+}
+
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
